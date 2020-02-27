@@ -7,7 +7,7 @@ import { StoreComponent } from "./store.component";
 
 @NgModule({
     imports: [ModelModule, BrowserModule, FormsModule],
-    declarations: [StoreComponent, CounterDirective],
+    declarations: [StoreComponent],
     exports: [StoreComponent]
 })
 export class StoreModule { }
